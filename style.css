@@ -1,0 +1,118 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-image: url(./fotos/tapiz.jpg) ;
+}
+
+.container {
+    margin: auto;
+    width: 960px;
+    height: 650px;
+    padding: 5px;
+}
+
+.logo {
+    width: 5%;
+    float: left;
+}
+
+.lefth {
+    float: left;
+    width: 70%;
+    height: 70%;
+    border-radius: 24px;
+}
+
+.right {
+    float: right;
+    width: 30%;
+    height: auto;
+    border-radius: 24px;
+}
+
+.lefth-button {
+    float: left;
+    width: 70%;
+    height: auto;
+    border-radius: 24px;
+}
+
+.logoImg {
+    margin-top: 1%;
+    margin-left: 5%;
+    float: inherit;
+}
+
+.title {
+    float: inherit;
+    margin-left: 20%;
+    color: #F3F5FC;
+}
+
+.text-input {
+    float: left;
+    margin-left: 10%;
+    margin-top: 10%;
+    width: 80%;
+    height: 60%;
+    color: #0A3871;
+    font-size: 20px;
+    border: none;
+    outline: none;
+    background: #F3F5FC;
+}
+
+#imgDer {
+    margin-left: 2%;
+    margin-top: 20%;
+    width: 90%;
+    height: auto;
+}
+
+#texto {
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+#texto2 {
+    float: left;
+    margin-left: 10%;
+    width: 80%;
+    height: 60%;
+    border: none;
+    outline: none;
+    font-size: 15px;
+}
+
+#btn-encriptar {
+    background: #0A3871;
+    border: 1px solid;
+    width: 30%;
+    height: 60%;
+    border-radius: 24px;
+    color: #F3F5FC;
+    cursor: pointer;
+    margin-left: 15%;
+}
+
+#btn-desencriptar {
+    background: #0A3871;
+    border: 1px solid;
+    width: 30%;
+    height: 60%;
+    border-radius: 24px;
+    color: #F3F5FC;
+    cursor: pointer;
+    margin-left: 10%;
+}
+
+#copiar {
+    margin-left: 33%;
+    margin-top: 90%;
+    padding: 24%;
+    width: 40%;
+    height: 10%;
+    background: #D8DFE8;
+    border-radius: 24px;
+    display: none;
+}

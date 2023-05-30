@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script type="text/javascript" src="script.js"></script>
+    <title>intento_10</title>
+</head>
+
+<body>
+    <header>
+        <div class="logo">
+            <img class="logoImg" src="fotos/logo.png" alt="logo alura">
+            <h1 class="title">Catslover_Encriptador</h1>
+        </div>
+    </header>
+    
+    <div class="container">
+        <div class="lefth">
+            <input class="text-input" id="inputTexto" type="text" placeholder="Ingrese el texto aquí">
+        </div>
+
+        <div class="right">
+            <img src="fotos/pata de gato.jpg" id="imgDer">
+            <h1 id="texto">Ningún mensaje fue encontrado</h1>
+            <textarea id="texto2" name="name" rows="8" cols="80">Ingrese el texto que desea encriptar o desencriptar</textarea>
+            <button id="copiar" type="button" name="button" onclick="copy()">¡Copiar!</button>
+        </div>
+
+        <div class="lefth-button">
+            <p>Solo letras minúsculas y sin acento</p>
+            <button type="button" id="btn-encriptar" onclick="encriptar()">Encriptar</button>
+            <button type="button" id="btn-desencriptar" onclick="desencriptar()">Desencriptar</button>
+        </div>
+    </div>
+</body>
+
+</html>
+
